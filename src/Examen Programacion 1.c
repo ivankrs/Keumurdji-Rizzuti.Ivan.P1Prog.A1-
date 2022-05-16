@@ -28,6 +28,7 @@ typedef struct{
 
 float aplicarAumento(float precio);
 int reemplazarCaracter(char cadena[], char caracterUno, char caracterDos);
+int ordenarArray(eVacuna vacunas[], int tam);
 int main(void) {
 
 	float precio = 100;
@@ -97,7 +98,7 @@ int ordenarArray(eVacuna vacunas[], int tam){
 			for(int j=i+1; i<tam;i++){
 
 				if(strcpy(vacunas[j].tipo, vacunas[i].tipo)<0){
-
+					vacunas[j].id
 				}
 			}
 		}
